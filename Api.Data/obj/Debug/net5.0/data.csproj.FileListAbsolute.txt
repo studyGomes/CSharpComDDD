@@ -1,0 +1,12 @@
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\bin\Debug\net5.0\data.deps.json
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\bin\Debug\net5.0\data.dll
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\bin\Debug\net5.0\ref\data.dll
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\bin\Debug\net5.0\data.pdb
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\data.csprojAssemblyReference.cache
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\data.GeneratedMSBuildEditorConfig.editorconfig
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\data.AssemblyInfoInputs.cache
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\data.AssemblyInfo.cs
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\data.csproj.CoreCompileInputs.cache
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\data.dll
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\ref\data.dll
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\data.pdb
