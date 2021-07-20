@@ -1,0 +1,16 @@
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\bin\Debug\net5.0\helloWorld.exe
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\bin\Debug\net5.0\helloWorld.deps.json
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\bin\Debug\net5.0\helloWorld.runtimeconfig.json
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\bin\Debug\net5.0\helloWorld.runtimeconfig.dev.json
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\bin\Debug\net5.0\helloWorld.dll
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\bin\Debug\net5.0\ref\helloWorld.dll
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\bin\Debug\net5.0\helloWorld.pdb
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\obj\Debug\net5.0\helloWorld.csprojAssemblyReference.cache
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\obj\Debug\net5.0\helloWorld.GeneratedMSBuildEditorConfig.editorconfig
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\obj\Debug\net5.0\helloWorld.AssemblyInfoInputs.cache
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\obj\Debug\net5.0\helloWorld.AssemblyInfo.cs
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\obj\Debug\net5.0\helloWorld.csproj.CoreCompileInputs.cache
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\obj\Debug\net5.0\helloWorld.dll
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\obj\Debug\net5.0\ref\helloWorld.dll
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\obj\Debug\net5.0\helloWorld.pdb
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\helloWorld\obj\Debug\net5.0\helloWorld.genruntimeconfig.cache
