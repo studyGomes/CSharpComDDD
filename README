@@ -1,0 +1,29 @@
+Estudos C# com DDD
+
+Estrutura DDD
+
+
+            <--    APPLICATION      -->
+
+    [  DOMAIN  ]       <--           SERVICES                  
+
+            <--  INFRAESTRUCTURE    <--
+
+
+1 - Application --- Camada mais externa, para comunicação das camadas internas, por exemplo, a tecnologia e rotas.
+    1.1 - Controllers --- Responsavel por processar e disponibilizar os Endpoints da Aplicação.
+2 - Infraestructure
+    2.1 - CrossCutting
+    2.2 - Data --- Acesso a Banco de Dados, criação, Migrations, Conexões.
+        2.2.1 - Context --- Conexão com Banco de Dados
+        2.2.2 - Mapping --- Definição da entidade do Domain para o Banco de Dados, como PrimaryKey, Tipo de Campo, regras.
+        2.2.3 - Migrations --- Estrutura de Scripts, automatizados pelo EF para Integração com DB, Atualização, Criacão, etc.
+        2.2.4 - Repository --- Integração dos Objetos do Banco, Tabelas por exemplo, com o Sistema, tipo DataModulo.
+3 - Domain --- Camada de Entidades 
+    3.1 - Entities --- Classe das Entidades utilizadas no sistema
+    3.2 - Interfaces --- Injeção de dependencias, Definicão de Interfaces para camadas que utilizarão.
+        3.2.1 - Services --- Injeção de dependencias de Services
+            3.2.1.1 - User --- Exemplo de Interface Implementação em Services
+4 - Services --- Regras de Negócio, antes de chegar ao Banco 
+    4.1 - Services --- Implementação das Interfaces da Camada de Domain.
+
