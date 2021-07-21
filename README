@@ -12,6 +12,40 @@ Ferramentas e Tecnologias Testadas no Processo.
      - Integração do GIT x Azure para utilização de PIPELINES.
      - Geração dos Artefatos ok.
 
+Comandos Básicos
+
+    GIT - Repositorios
+
+        [ Inicio do Projeto ] 
+        git init -- local - inicia uma pasta vazia com informações que serão do GIT 
+        git remote add origin <https://github.com/<repository.git>>  -- local - vincular ao git remoto
+
+        [ Configurar Email e Nome para eventuais erros do GIT ]
+        git config user.email "blabla@blabla.com"
+        git config user.name "Alexandre Gomes"
+
+        [ Comandos no dia a dia ]
+        git add meuarquivo.txt OU git add .                     -- Registra um arquivo para envio no GIT. Utiliando o PONTO, envia tudo.
+        git commit -m "Criacao de arquivo bla bla bla…"         -- Apos preparar os arquivos para envio, Efetua o commit com a descricao .
+        git push -u origin main OU git push -u origin master    -- Envio do commit para a branch
+        git pull                                                -- Download de commits enviados pela Equipe. 
+
+    DOTNET - Básicos
+
+        [ Exemplos de Comandos ]
+        dotnet new sln --name CSharpDDD         -- Criar Solucao
+        dotnet new console -o helloWorld        -- Criar Projeto, com output - console, mvc, webapi, etc... 
+        dotnet new mvc -o mvcProj               -- Novo Projeto
+        dotnet sln add helloWorld               -- Linkar Solucao x Projeto (Estando na pasta da Solução)
+        
+        dotnet add Api.Application reference api.domain     -- Adicionando referencias entre Projetos
+        dotnet add Api.Application reference api.service
+        dotnet add Api.Application reference api.crosscutting
+
+        [ EF - Entity Framework]
+        dotnet ef migrations add First_Migration    -- Comando para Gerar os Scripts de Base de Dados baseado nas Entities.
+        dotnet ef database update                   -- Comando para Update do Banco de Dados
+
 Estrutura DDD
 
 
