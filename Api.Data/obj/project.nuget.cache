@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jyfP9mkWxzeUsopHLpsyrqbjkXnvf9ej3IP30iC0lUUcrCr++dpdrehIKBucGRAU+T9cgDdXcb1FzfBlHZwUng==",
+  "dgSpecHash": "Nm91ZJS6Oio0ylAa5sLmKvf62iYHyq+686lD+4HJVl/AstLRyN2TAE8Dve3lF318WWeZDi3+vhVsiYmXCYpPGw==",
   "success": true,
-  "projectFilePath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data\\data.csproj",
+  "projectFilePath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.data\\data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\swgom\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\swgom\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

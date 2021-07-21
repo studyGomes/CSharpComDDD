@@ -139,8 +139,8 @@ namespace Api.Data.Repository
             try
             {
                 // Listar apenas os registros NÃO EXCLUIDOS
-                return await _dataset   .Include(p => p.DeleteAt.Equals(null) ) 
-                                        .ToListAsync(); 
+                return await _dataset   .ToListAsync(); //.Include(p => p.DeleteAt != null ) 
+                                                        // .ToListAsync(); 
             }
             catch (Exception)
             {

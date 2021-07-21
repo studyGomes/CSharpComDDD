@@ -10,10 +10,8 @@ F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Service\obj\Debug\net5
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Service\obj\Debug\net5.0\service.dll
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Service\obj\Debug\net5.0\ref\service.dll
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Service\obj\Debug\net5.0\service.pdb
-F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Service\bin\Debug\net5.0\crosscutting.dll
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Service\bin\Debug\net5.0\data.dll
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Service\bin\Debug\net5.0\domain.dll
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Service\bin\Debug\net5.0\domain.pdb
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Service\bin\Debug\net5.0\data.pdb
-F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Service\bin\Debug\net5.0\crosscutting.pdb
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Service\obj\Debug\net5.0\service.csproj.CopyComplete

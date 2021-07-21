@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qOM0sp04So7a6hjYLGQ6Mo3OBiAUfl/nbdxR/v3JYN1ah93g99B3Ccu0D5EySoatCfu24v2epepcdJ5kQHX80A==",
+  "dgSpecHash": "aMrGGxa3aOGXff8briuW/33oW74/YRiMk+fWhHOKJbR2dcVPrfZW1OO8krtANpMZ71WXIP9DidY3PTjiA24YEw==",
   "success": true,
-  "projectFilePath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Domain\\domain.csproj",
+  "projectFilePath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.domain\\domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -60,6 +60,10 @@ Estrutura DDD
     1.1 - Controllers --- Responsavel por processar e disponibilizar os Endpoints da Aplicação.
 2 - Infraestructure
     2.1 - CrossCutting
+        2.1.1 - DependencyInjection --- Fazer a Referencia entre IUserService x UserService.
+            Obs.:   AddTransient - Cria sempre nova Instancia 
+                    AddScoped - Entrou na Aplicação, cria uma instancia apenas.
+                    AddSinglenton - Iniciou no servidor, NUNCA muda.  
     2.2 - Data --- Acesso a Banco de Dados, criação, Migrations, Conexões.
         2.2.1 - Context --- Conexão com Banco de Dados
         2.2.2 - Mapping --- Definição da entidade do Domain para o Banco de Dados, como PrimaryKey, Tipo de Campo, regras.
