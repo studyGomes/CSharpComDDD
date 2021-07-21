@@ -1,5 +1,17 @@
 Estudos C# com DDD
 
+Ferramentas e Tecnologias Testadas no Processo.
+
+   - GitHub Actions - Funcionando
+     - Ao Aplicar atualização, é possível utilizar o Actions para Implantar em um Linux Ubuntu 20.04
+     - É Gerado os Artefatos para Download.
+
+   - Azure DevOps - Funcionando
+     - Criado uma Organização 
+     - Utilização dos Boards de Atividades SCRUM para acompanhamento de Projetos.
+     - Integração do GIT x Azure para utilização de PIPELINES.
+     - Geração dos Artefatos ok.
+
 Estrutura DDD
 
 
