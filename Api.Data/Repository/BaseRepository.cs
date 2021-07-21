@@ -19,9 +19,44 @@ namespace Api.Data.Repository
             _dataset = _context.Set<T>();
         }
 
-        public Task<bool> DeleteAsync(Guid id)
+        public async Task<bool> DeleteAsync(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                // ID vindo do FRONTEND
+                // Busca no banco para confrontar a informação.
+                var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
+
+                if (result == null)
+                    return false;
+
+                // UPDATE
+
+                // UPDATE VIRTUAL    
+                var _item = result ;
+                _item.DeleteAt = DateTime.UtcNow;
+                _item.CreateAt = result.CreateAt;
+
+                _context.Entry(result).CurrentValues.SetValues(_item);
+
+                // UPDATE FISICO
+                /*    
+                _dataset.Remove(result);
+                _context.Entry(result).CurrentValues.SetValues(_item);
+                */
+
+                // Aguarda salvar no banco de Dados
+                await _context.SaveChangesAsync();
+
+                return true;
+
+            }
+            catch (Exception)
+            {
+                
+                throw ;
+            }
+           
         }
 
         public async Task<T> InsertAsync(T item)
@@ -32,36 +67,88 @@ namespace Api.Data.Repository
                     item.Id = Guid.NewGuid();
                 }
 
+                // CREATE
                 // Tabela recebendo os dados Entity BASE
                 item.CreateAt = DateTime.UtcNow;
 
                 // Entidade T, pode ser Usuario, Cliente, Tabelas, etc.. 
                 _dataset.Add(item);
 
+                // Aguarda salvar no banco de Dados
                 await _context.SaveChangesAsync();
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 
-                throw ex;
+                throw;
             }
             return item;
         }
 
-        public Task<T> SelectAsync(Guid id)
+        public async Task<T> UpdateAsync(T item)
         {
-            throw new NotImplementedException();
+            try
+            {
+                // ID vindo do FRONTEND
+                // Busca no banco para confrontar a informação.
+                var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(item.Id));
+
+                if (result == null)
+                    return null;
+                
+                // UPDATE
+                item.UpdateAt = DateTime.UtcNow;
+                item.CreateAt = result.CreateAt;
+
+                _context.Entry(result).CurrentValues.SetValues(item);
+
+                // Aguarda salvar no banco de Dados
+                await _context.SaveChangesAsync();
+
+            }
+            catch (Exception)
+            {
+                
+                throw ;
+            }
+
+            return item;
         }
 
-        public Task<IEnumerable<T>> SelectAsync()
+        public async Task<bool> ExistAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return await _dataset.AnyAsync(p => p.Id.Equals(id));
         }
 
-        public Task<T> UpdateAsync(T item)
+        public async Task<T> SelectAsync(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
         }
+
+        public async Task<IEnumerable<T>> SelectAsync()
+        {
+            try
+            {
+                // Listar apenas os registros NÃO EXCLUIDOS
+                return await _dataset   .Include(p => p.DeleteAt.Equals(null) ) 
+                                        .ToListAsync(); 
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            } 
+        }
+
+
     }
 }
