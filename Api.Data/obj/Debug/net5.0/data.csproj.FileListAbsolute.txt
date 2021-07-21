@@ -10,3 +10,9 @@ F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\data.dll
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\ref\data.dll
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\data.pdb
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\bin\Debug\net5.0\data.runtimeconfig.json
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\bin\Debug\net5.0\data.runtimeconfig.dev.json
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\data.genruntimeconfig.cache
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\bin\Debug\net5.0\domain.dll
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\bin\Debug\net5.0\domain.pdb
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Data\obj\Debug\net5.0\data.csproj.CopyComplete
