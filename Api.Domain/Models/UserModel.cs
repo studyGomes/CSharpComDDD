@@ -29,7 +29,7 @@ namespace Api.Domain.Models
         public DateTime CreateAt
         {
             get {   return _createAt;  }
-            set {   _createAt = value == null ? DateTime.UtcNow :value; }
+            set {   _createAt = value ; }
         }
 
         private DateTime _updateAt;

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "crosscutting/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "data": "1.0.0",
           "domain": "1.0.0",
@@ -1104,6 +1105,7 @@
       },
       "service/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.1.1",
           "data": "1.0.0",
           "domain": "1.0.0"
         },
