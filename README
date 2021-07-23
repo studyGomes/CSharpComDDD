@@ -12,6 +12,9 @@ Ferramentas e Tecnologias Testadas no Processo.
      - Integração do GIT x Azure para utilização de PIPELINES.
      - Geração dos Artefatos ok.
 
+   - Utilização
+     - JWT - Utilizado no Login
+
 Comandos Básicos
 
     GIT - Repositorios
@@ -69,11 +72,13 @@ Estrutura DDD
         2.2.2 - Mapping --- Definição da entidade do Domain para o Banco de Dados, como PrimaryKey, Tipo de Campo, regras.
         2.2.3 - Migrations --- Estrutura de Scripts, automatizados pelo EF para Integração com DB, Atualização, Criacão, etc.
         2.2.4 - Repository --- Integração dos Objetos do Banco, Tabelas por exemplo, com o Sistema, tipo DataModulo.
+        2.2.5 - Implementations --- Estrutura de Expansão de classes, implementações.
 3 - Domain --- Camada de Entidades 
     3.1 - Entities --- Classe das Entidades utilizadas no sistema
     3.2 - Interfaces --- Injeção de dependencias, Definicão de Interfaces para camadas que utilizarão.
         3.2.1 - Services --- Injeção de dependencias de Services
             3.2.1.1 - User --- Exemplo de Interface Implementação em Services
+    3.3 - Repository --- Extensão de Métodos do Repositório
 4 - Services --- Regras de Negócio, antes de chegar ao Banco 
     4.1 - Services --- Implementação das Interfaces da Camada de Domain.
 
