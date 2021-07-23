@@ -77,3 +77,23 @@ Estrutura DDD
 4 - Services --- Regras de Negócio, antes de chegar ao Banco 
     4.1 - Services --- Implementação das Interfaces da Camada de Domain.
 
+
+
+[ -- Rotas -- ]
+GET - Um Registro api/users/{id}
+http://localhost:5000/api/users/5e831096-52a3-4f41-881a-1ac1a0c106cd
+
+GET - Listar todos os Registros api/users
+http://localhost:5000/api/users
+
+POST - Incluir Registros
+http://localhost:5000/api/users
+
+PUT - Alterar Um Registro api/users
+http://localhost:5000/api/users/
+ID - Deverá estar no JSON do UPDATE
+
+DELETE - Excluir Um Registro api/users/{id}
+http://localhost:5000/api/users/5e831096-52a3-4f41-881a-1ac1a0c106cd
+
+
