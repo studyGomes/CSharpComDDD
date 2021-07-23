@@ -15,6 +15,7 @@ Ferramentas e Tecnologias Testadas no Processo.
    - Utilização
      - Swagger - Rotas
      - JWT     - Utilizado no Login
+     - DataAnotations - Validação
 
 Comandos Básicos
 
@@ -80,6 +81,7 @@ Estrutura DDD
         3.2.1 - Services --- Injeção de dependencias de Services
             3.2.1.1 - User --- Exemplo de Interface Implementação em Services
     3.3 - Repository --- Extensão de Métodos do Repositório
+    3.4 - DTOs --- Data Transfer Objects - Utilização de classe / Objeto específico a ser trabalhado
 4 - Services --- Regras de Negócio, antes de chegar ao Banco 
     4.1 - Services --- Implementação das Interfaces da Camada de Domain.
 
