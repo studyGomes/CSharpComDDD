@@ -13,7 +13,8 @@ Ferramentas e Tecnologias Testadas no Processo.
      - Geração dos Artefatos ok.
 
    - Utilização
-     - JWT - Utilizado no Login
+     - Swagger - Rotas
+     - JWT     - Utilizado no Login
 
 Comandos Básicos
 
