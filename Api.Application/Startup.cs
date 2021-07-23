@@ -33,7 +33,24 @@ namespace application
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "application", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo 
+                { 
+                    Version = "v1", 
+                    Title = "CSharpComDDD", 
+                    Description = "Arquitetura DDD",
+                    TermsOfService = new Uri("http://www.microsoft.com/"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Alexandre Gomes",
+                        Email = "alexandre@....com",
+                        Url = new Uri("http://www.microsoft.com/")
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "Alexandre Gomes",
+                        Url = new Uri("http://www.microsoft.com/")
+                    }
+                });
             });
         }
 
@@ -43,9 +60,18 @@ namespace application
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "application v1"));
             }
+            // SWAGGER
+            app.UseSwagger();
+            app.UseSwaggerUI(
+                c => 
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "application v1");
+                    c.RoutePrefix = string.Empty ;
+                }
+            );
+            
+
 
             app.UseRouting();
 
