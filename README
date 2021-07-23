@@ -16,6 +16,7 @@ Ferramentas e Tecnologias Testadas no Processo.
      - Swagger - Rotas
      - JWT     - Utilizado no Login
      - DataAnotations - Validação
+     - Tokens  - Implementado uso de Tokens por Login e Email
 
 Comandos Básicos
 

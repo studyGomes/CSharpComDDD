@@ -39,7 +39,6 @@ F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Application\bin\Debug\
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Application\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Application\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Application\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Application\bin\Debug\net5.0\Newtonsoft.Json.dll
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Application\bin\Debug\net5.0\Npgsql.dll
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Application\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Application\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
@@ -69,3 +68,4 @@ F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Application\bin\Debug\
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Application\bin\Debug\net5.0\data.pdb
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Application\bin\Debug\net5.0\AutoMapper.dll
 F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Application\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\OneDrive\Projetos_DevOps\udemy\CSharpComDDD\aula20\Api.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
