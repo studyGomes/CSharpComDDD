@@ -1,3 +1,4 @@
+using System;
 using Api.Data.Mapping;
 using Api.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
@@ -27,6 +28,16 @@ namespace Api.Data.Context
             // 2 - Context
             // 3 - MAP
             // 4 - Migrations
+
+            modelBuilder.Entity<UserEntity>().HasData(
+                new UserEntity{
+                    Id = Guid.NewGuid(),
+                    Name = "Alexandre Gomes",
+                    Email = "user@example.com",
+                    CreateAt = DateTime.Now,
+                    UpdateAt = DateTime.Now,
+                }
+            );
 
         }
 

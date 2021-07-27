@@ -13,6 +13,7 @@ Ferramentas e Tecnologias Testadas no Processo.
      - Geração dos Artefatos ok.
 
    - Utilização
+     - Environment - Connection e Migrations, Criação do Banco com usuário Padrao.
      - Swagger - Rotas
      - JWT     - Utilizado no Login
      - DataAnotations - Validação
@@ -50,6 +51,7 @@ Comandos Básicos
 
         [ EF - Entity Framework]
         dotnet ef migrations add First_Migration    -- Comando para Gerar os Scripts de Base de Dados baseado nas Entities.
+        dotnet ef migrations remove                 -- Comando para Excluir os Scripts de Base de Dados baseado nas Entities.
         dotnet ef database update                   -- Comando para Update do Banco de Dados
 
 Estrutura DDD

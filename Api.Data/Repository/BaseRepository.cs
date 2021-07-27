@@ -33,17 +33,17 @@ namespace Api.Data.Repository
                 // UPDATE
 
                 // UPDATE VIRTUAL    
+                /*
                 var _item = result ;
                 _item.DeleteAt = DateTime.UtcNow;
                 _item.CreateAt = result.CreateAt;
 
                 _context.Entry(result).CurrentValues.SetValues(_item);
-
-                // UPDATE FISICO
-                /*    
-                _dataset.Remove(result);
-                _context.Entry(result).CurrentValues.SetValues(_item);
+                // Até Aqui Virtual
                 */
+                // UPDATE FISICO
+                _dataset.Remove(result);
+                // Até aqui Fisico
 
                 // Aguarda salvar no banco de Dados
                 await _context.SaveChangesAsync();

@@ -49,6 +49,16 @@ namespace data.Migrations
                         .IsUnique();
 
                     b.ToTable("User");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("b3c2054e-fd54-41d1-a8c0-e7eb8adb673d"),
+                            CreateAt = new DateTime(2021, 7, 26, 23, 37, 8, 483, DateTimeKind.Local).AddTicks(1814),
+                            Email = "user@example.com",
+                            Name = "Alexandre Gomes",
+                            UpdateAt = new DateTime(2021, 7, 26, 23, 37, 8, 495, DateTimeKind.Local).AddTicks(6516)
+                        });
                 });
 #pragma warning restore 612, 618
         }
