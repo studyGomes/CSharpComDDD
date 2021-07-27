@@ -18,6 +18,7 @@ Ferramentas e Tecnologias Testadas no Processo.
      - JWT     - Utilizado no Login
      - DataAnotations - Validação
      - Tokens  - Implementado uso de Tokens por Login e Email
+     - Unit Tests - XUnit
 
 Comandos Básicos
 
@@ -53,6 +54,20 @@ Comandos Básicos
         dotnet ef migrations add First_Migration    -- Comando para Gerar os Scripts de Base de Dados baseado nas Entities.
         dotnet ef migrations remove                 -- Comando para Excluir os Scripts de Base de Dados baseado nas Entities.
         dotnet ef database update                   -- Comando para Update do Banco de Dados
+
+        [ XUnit - Unit Tests]
+        Fact(Skip="Em Implementação/Desativado")    -- Desabilitar 
+        Fact(Trait("CRUD","Create - Criar"))        -- Testes em Grupo
+        Fact(Trait("CRUD","Read   - Ler"))          -- Testes em Grupo
+        Fact(Skip="Em Implementação/Desativado")
+
+        [ XUnit - Ordem de Aplicação dos Testes ]
+        Api.Data        - Testa o contexto e os métodos das Entidades
+        Api.Service     - Testa a Camada Service fazendo Mock de registros Retornados
+        Api.Application - Certifica que o Controller retorna os Códigos HTTP corretos.
+        Api.Integration - Garantia que a API está Funcional, Rotas, Postman, Etc.
+
+
 
 Estrutura DDD
 

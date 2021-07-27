@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BrCY1vmWoJRjcguyqktpfHgupUr8aLO2UiG2FctH+IM4VWH8URbxjckNp6TWfXqzRmNtpVHG/2n2I/c6stZM7g==",
+  "dgSpecHash": "Hsh8O7IIfISDDT7P1w9H1eKZHmZH6E0Yi5xRud9mQNT2OYbhJ/A5lOxR5vGgua+5AEPrUYAcN89MXXvXWQdnHg==",
   "success": true,
-  "projectFilePath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.service\\service.csproj",
+  "projectFilePath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Service\\service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\swgom\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\swgom\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
