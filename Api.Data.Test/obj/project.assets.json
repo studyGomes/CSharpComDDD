@@ -35,6 +35,23 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "Faker.NETCore/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/Faker.NETCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Faker.NETCore.dll": {}
+        },
+        "resource": {
+          "lib/netstandard1.6/de-DE/Faker.NETCore.resources.dll": {
+            "locale": "de-DE"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.8": {
         "type": "package",
         "dependencies": {
@@ -2713,6 +2730,19 @@
         "coverlet-icon.png",
         "coverlet.collector.1.3.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "Faker.NETCore/1.0.2": {
+      "sha512": "teRWZFwtBSuMRo2jxB4/DfCo3nprjMtjb7tjBfhrnz+BPhQMivW9cVo06kLr4GAJjrCOvCNQ2sJckRwGvMmK0Q==",
+      "type": "package",
+      "path": "faker.netcore/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "faker.netcore.1.0.2.nupkg.sha512",
+        "faker.netcore.nuspec",
+        "lib/netstandard1.6/Faker.NETCore.dll",
+        "lib/netstandard1.6/de-DE/Faker.NETCore.resources.dll"
       ]
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.8": {
@@ -8451,33 +8481,34 @@
     },
     "application/1.0.0": {
       "type": "project",
-      "path": "../Api.Application/application.csproj",
-      "msbuildProject": "../Api.Application/application.csproj"
+      "path": "../api.application/application.csproj",
+      "msbuildProject": "../api.application/application.csproj"
     },
     "crosscutting/1.0.0": {
       "type": "project",
-      "path": "../Api.CrossCutting/crosscutting.csproj",
-      "msbuildProject": "../Api.CrossCutting/crosscutting.csproj"
+      "path": "../api.crosscutting/crosscutting.csproj",
+      "msbuildProject": "../api.crosscutting/crosscutting.csproj"
     },
     "data/1.0.0": {
       "type": "project",
-      "path": "../Api.Data/data.csproj",
-      "msbuildProject": "../Api.Data/data.csproj"
+      "path": "../api.data/data.csproj",
+      "msbuildProject": "../api.data/data.csproj"
     },
     "domain/1.0.0": {
       "type": "project",
-      "path": "../Api.Domain/domain.csproj",
-      "msbuildProject": "../Api.Domain/domain.csproj"
+      "path": "../api.domain/domain.csproj",
+      "msbuildProject": "../api.domain/domain.csproj"
     },
     "service/1.0.0": {
       "type": "project",
-      "path": "../Api.Service/service.csproj",
-      "msbuildProject": "../Api.Service/service.csproj"
+      "path": "../api.service/service.csproj",
+      "msbuildProject": "../api.service/service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
+      "Faker.NETCore >= 1.0.2",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "application >= 1.0.0",
       "coverlet.collector >= 1.3.0",
@@ -8495,11 +8526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data.Test\\Api.Data.Test.csproj",
+      "projectUniqueName": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data.Test\\Api.Data.Test.csproj",
       "projectName": "Api.Data.Test",
-      "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data.Test\\Api.Data.Test.csproj",
+      "projectPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data.Test\\Api.Data.Test.csproj",
       "packagesPath": "C:\\Users\\swgom\\.nuget\\packages\\",
-      "outputPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data.Test\\obj\\",
+      "outputPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -8520,17 +8551,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Application\\application.csproj": {
-              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Application\\application.csproj"
+            "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.application\\application.csproj": {
+              "projectPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.application\\application.csproj"
             },
-            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.CrossCutting\\crosscutting.csproj": {
-              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.CrossCutting\\crosscutting.csproj"
+            "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.crosscutting\\crosscutting.csproj": {
+              "projectPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.crosscutting\\crosscutting.csproj"
             },
-            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data\\data.csproj": {
-              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data\\data.csproj"
+            "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.data\\data.csproj": {
+              "projectPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.data\\data.csproj"
             },
-            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Domain\\domain.csproj": {
-              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Domain\\domain.csproj"
+            "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.domain\\domain.csproj": {
+              "projectPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.domain\\domain.csproj"
             }
           }
         }
@@ -8548,6 +8579,10 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[8.1.1, )"
+          },
+          "Faker.NETCore": {
+            "target": "Package",
+            "version": "[1.0.2, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

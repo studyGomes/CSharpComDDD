@@ -5892,18 +5892,18 @@
     },
     "data/1.0.0": {
       "type": "project",
-      "path": "../Api.Data/data.csproj",
-      "msbuildProject": "../Api.Data/data.csproj"
+      "path": "../api.data/data.csproj",
+      "msbuildProject": "../api.data/data.csproj"
     },
     "domain/1.0.0": {
       "type": "project",
-      "path": "../Api.Domain/domain.csproj",
-      "msbuildProject": "../Api.Domain/domain.csproj"
+      "path": "../api.domain/domain.csproj",
+      "msbuildProject": "../api.domain/domain.csproj"
     },
     "service/1.0.0": {
       "type": "project",
-      "path": "../Api.Service/service.csproj",
-      "msbuildProject": "../Api.Service/service.csproj"
+      "path": "../api.service/service.csproj",
+      "msbuildProject": "../api.service/service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5922,11 +5922,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.CrossCutting\\crosscutting.csproj",
+      "projectUniqueName": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.crosscutting\\crosscutting.csproj",
       "projectName": "crosscutting",
-      "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.CrossCutting\\crosscutting.csproj",
+      "projectPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.crosscutting\\crosscutting.csproj",
       "packagesPath": "C:\\Users\\swgom\\.nuget\\packages\\",
-      "outputPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.CrossCutting\\obj\\",
+      "outputPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.crosscutting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -5947,14 +5947,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data\\data.csproj": {
-              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data\\data.csproj"
+            "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.data\\data.csproj": {
+              "projectPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.data\\data.csproj"
             },
-            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Domain\\domain.csproj": {
-              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Domain\\domain.csproj"
+            "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.domain\\domain.csproj": {
+              "projectPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.domain\\domain.csproj"
             },
-            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Service\\service.csproj": {
-              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Service\\service.csproj"
+            "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.service\\service.csproj": {
+              "projectPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.service\\service.csproj"
             }
           }
         }

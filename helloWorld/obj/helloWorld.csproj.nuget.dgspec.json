@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\helloWorld\\helloWorld.csproj": {}
+    "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\helloWorld\\helloWorld.csproj": {}
   },
   "projects": {
-    "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\helloWorld\\helloWorld.csproj": {
+    "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\helloWorld\\helloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\helloWorld\\helloWorld.csproj",
+        "projectUniqueName": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\helloWorld\\helloWorld.csproj",
         "projectName": "helloWorld",
-        "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\helloWorld\\helloWorld.csproj",
+        "projectPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\helloWorld\\helloWorld.csproj",
         "packagesPath": "C:\\Users\\swgom\\.nuget\\packages\\",
-        "outputPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\helloWorld\\obj\\",
+        "outputPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\helloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

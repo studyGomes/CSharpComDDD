@@ -5887,8 +5887,8 @@
     },
     "domain/1.0.0": {
       "type": "project",
-      "path": "../Api.Domain/domain.csproj",
-      "msbuildProject": "../Api.Domain/domain.csproj"
+      "path": "../api.domain/domain.csproj",
+      "msbuildProject": "../api.domain/domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5908,11 +5908,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data\\data.csproj",
+      "projectUniqueName": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.data\\data.csproj",
       "projectName": "data",
-      "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data\\data.csproj",
+      "projectPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.data\\data.csproj",
       "packagesPath": "C:\\Users\\swgom\\.nuget\\packages\\",
-      "outputPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Data\\obj\\",
+      "outputPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -5933,8 +5933,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Domain\\domain.csproj": {
-              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Domain\\domain.csproj"
+            "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.domain\\domain.csproj": {
+              "projectPath": "f:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.domain\\domain.csproj"
             }
           }
         }

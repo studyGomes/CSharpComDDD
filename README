@@ -13,12 +13,13 @@ Ferramentas e Tecnologias Testadas no Processo.
      - Geração dos Artefatos ok.
 
    - Utilização
-     - Environment - Connection e Migrations, Criação do Banco com usuário Padrao.
-     - Swagger - Rotas
-     - JWT     - Utilizado no Login
-     - DataAnotations - Validação
-     - Tokens  - Implementado uso de Tokens por Login e Email
-     - Unit Tests - XUnit
+     - Environment      - Connection e Migrations, Criação do Banco com usuário Padrao.
+     - Swagger          - Rotas
+     - JWT              - Utilizado no Login
+     - DataAnotations   - Validação
+     - Tokens           - Implementado uso de Tokens por Login e Email
+     - Unit Tests       - XUnit
+     - Faker.NETCore    - Criação de dados Fakers para UnitTests
 
 Comandos Básicos
 
