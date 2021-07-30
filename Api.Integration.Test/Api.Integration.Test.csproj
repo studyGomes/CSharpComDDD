@@ -25,10 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\api.data\data.csproj" />
-    <ProjectReference Include="..\api.crosscutting\crosscutting.csproj" />
-    <ProjectReference Include="..\api.domain\domain.csproj" />
-    <ProjectReference Include="..\api.application\application.csproj" />
+    <ProjectReference Include="..\Api.Data\data.csproj" />
+    <ProjectReference Include="..\Api.CrossCutting\crosscutting.csproj" />
+    <ProjectReference Include="..\Api.Domain\domain.csproj" />
+    <ProjectReference Include="..\Api.Application\application.csproj" />
   </ItemGroup>
 
 </Project>

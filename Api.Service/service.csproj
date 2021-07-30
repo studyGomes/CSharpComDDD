@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\api.domain\domain.csproj" />
-    <ProjectReference Include="..\api.data\data.csproj" />
+    <ProjectReference Include="..\Api.Domain\domain.csproj" />
+    <ProjectReference Include="..\Api.Data\data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

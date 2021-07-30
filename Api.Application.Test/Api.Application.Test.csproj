@@ -22,9 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\api.application\application.csproj" />
-    <ProjectReference Include="..\api.service\service.csproj" />
-    <ProjectReference Include="..\api.domain\domain.csproj" />
+    <ProjectReference Include="..\Api.Application\application.csproj" />
+    <ProjectReference Include="..\Api.Service\service.csproj" />
+    <ProjectReference Include="..\Api.Domain\domain.csproj" />
   </ItemGroup>
 
 </Project>
