@@ -8640,28 +8640,28 @@
     },
     "application/1.0.0": {
       "type": "project",
-      "path": "../api.application/application.csproj",
-      "msbuildProject": "../api.application/application.csproj"
+      "path": "../Api.Application/application.csproj",
+      "msbuildProject": "../Api.Application/application.csproj"
     },
     "crosscutting/1.0.0": {
       "type": "project",
-      "path": "../api.crosscutting/crosscutting.csproj",
-      "msbuildProject": "../api.crosscutting/crosscutting.csproj"
+      "path": "../Api.CrossCutting/crosscutting.csproj",
+      "msbuildProject": "../Api.CrossCutting/crosscutting.csproj"
     },
     "data/1.0.0": {
       "type": "project",
-      "path": "../api.data/data.csproj",
-      "msbuildProject": "../api.data/data.csproj"
+      "path": "../Api.Data/data.csproj",
+      "msbuildProject": "../Api.Data/data.csproj"
     },
     "domain/1.0.0": {
       "type": "project",
-      "path": "../api.domain/domain.csproj",
-      "msbuildProject": "../api.domain/domain.csproj"
+      "path": "../Api.Domain/domain.csproj",
+      "msbuildProject": "../Api.Domain/domain.csproj"
     },
     "service/1.0.0": {
       "type": "project",
-      "path": "../api.service/service.csproj",
-      "msbuildProject": "../api.service/service.csproj"
+      "path": "../Api.Service/service.csproj",
+      "msbuildProject": "../Api.Service/service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8684,11 +8684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Application.Test\\Api.Application.Test.csproj",
+      "projectUniqueName": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.application.test\\Api.Application.Test.csproj",
       "projectName": "Api.Application.Test",
-      "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Application.Test\\Api.Application.Test.csproj",
+      "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.application.test\\Api.Application.Test.csproj",
       "packagesPath": "C:\\Users\\swgom\\.nuget\\packages\\",
-      "outputPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Application.Test\\obj\\",
+      "outputPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.application.test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -8709,14 +8709,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.application\\application.csproj": {
-              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.application\\application.csproj"
+            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Application\\application.csproj": {
+              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Application\\application.csproj"
             },
-            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.domain\\domain.csproj": {
-              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.domain\\domain.csproj"
+            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Domain\\domain.csproj": {
+              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Domain\\domain.csproj"
             },
-            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.service\\service.csproj": {
-              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.service\\service.csproj"
+            "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Service\\service.csproj": {
+              "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Service\\service.csproj"
             }
           }
         }

@@ -56,8 +56,13 @@ namespace Api.Application.Controllers
 
             try
             {
+                var result = await _service.Get(id);
+                if(result==null)
+                {
+                    return NotFound();
+                }
                 // StatusCode = 200
-                return Ok(await _service.Get(id));
+                return Ok(result);
             }
             catch (ArgumentException e)
             {

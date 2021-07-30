@@ -5716,11 +5716,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.application\\application.csproj",
+      "projectUniqueName": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Application\\application.csproj",
       "projectName": "application",
-      "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.application\\application.csproj",
+      "projectPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Application\\application.csproj",
       "packagesPath": "C:\\Users\\swgom\\.nuget\\packages\\",
-      "outputPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\api.application\\obj\\",
+      "outputPath": "F:\\OneDrive\\Projetos_DevOps\\udemy\\CSharpComDDD\\aula20\\Api.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
