@@ -17,11 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service", "Api.Service\serv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Data.Test", "Api.Data.Test\Api.Data.Test.csproj", "{B7A7B1AC-536B-4304-9D03-8F42B7693D62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Service.Test", "api.service.test\Api.Service.Test.csproj", "{76E0CE33-A9DE-4CCB-9AF4-3C5C44BDD18E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Service.Test", "Api.Service.Test\Api.Service.Test.csproj", "{76E0CE33-A9DE-4CCB-9AF4-3C5C44BDD18E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Application.Test", "api.application.test\Api.Application.Test.csproj", "{EFE1C0C8-0425-434C-A7E4-3F724D49000B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Application.Test", "Api.Application.Test\Api.Application.Test.csproj", "{EFE1C0C8-0425-434C-A7E4-3F724D49000B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Integration.Test", "api.integration.test\Api.Integration.Test.csproj", "{51FFA826-908A-4817-86DC-1A42BC72E3C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Integration.Test", "Api.Integration.Test\Api.Integration.Test.csproj", "{51FFA826-908A-4817-86DC-1A42BC72E3C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
